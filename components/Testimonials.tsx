@@ -7,7 +7,7 @@ export default function Testimonials() {
     <section className="sec">
       <div className="wrap">
         <div className="rv" style={{ textAlign: 'center' }}>
-          <div className="sec-eyebrow">// developers</div>
+          <div className="sec-eyebrow">— developers</div>
           <h2 className="sec-title">What the beta<br /><span className="gtext">testers said.</span></h2>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14, marginTop: 64 }}>

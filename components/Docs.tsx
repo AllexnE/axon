@@ -19,7 +19,7 @@ export default function Docs({ standalone }: { standalone?: boolean }) {
       <div className="wrap">
         {!standalone && (
           <div className="rv">
-            <div className="sec-eyebrow">// documentation</div>
+            <div className="sec-eyebrow">— documentation</div>
             <h2 className="sec-title">Everything documented.<br /><span className="gtext">Nothing assumed.</span></h2>
           </div>
         )}

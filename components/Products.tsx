@@ -31,7 +31,7 @@ export default function Products() {
     <section className="sec" id="products">
       <div className="wrap">
         <div className="rv">
-          <div className="sec-eyebrow">// platform</div>
+          <div className="sec-eyebrow">— platform</div>
           <h2 className="sec-title">One platform.<br /><span className="gtext">Five tools that think.</span></h2>
           <p className="sec-sub">Every Axon tool shares one neural engine — they learn together, improve together, and compose seamlessly.</p>
         </div>

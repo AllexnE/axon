@@ -20,7 +20,7 @@ export default function Download({ standalone }: { standalone?: boolean }) {
       <section className="sec" id="download" style={standalone ? { paddingTop: 60 } : {}}>
         <div className="wrap">
           <div className="rv" style={{ textAlign: 'center' }}>
-            <div className="sec-eyebrow">// download</div>
+            <div className="sec-eyebrow">— download</div>
             <h2 className="sec-title">Native. Instant.<br /><span className="gtext">No JRE required.</span></h2>
             <p className="sec-sub" style={{ margin: '0 auto' }}>jpackage-built installers. Works offline. Starts in under a second.</p>
           </div>

@@ -7,7 +7,7 @@ export default function Features() {
     <section className="sec" id="features">
       <div className="wrap">
         <div className="rv">
-          <div className="sec-eyebrow">// capabilities</div>
+          <div className="sec-eyebrow">— capabilities</div>
           <h2 className="sec-title">Not just smarter.<br /><span className="gtext">Built different.</span></h2>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: 12, marginTop: 64 }}>

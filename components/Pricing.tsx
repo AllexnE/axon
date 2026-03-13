@@ -11,7 +11,7 @@ export default function Pricing({ standalone }: { standalone?: boolean }) {
     <section className="sec" id="pricing" style={standalone ? { paddingTop: 60 } : {}}>
       <div className="wrap">
         <div className="rv" style={{ textAlign: 'center' }}>
-          <div className="sec-eyebrow">// pricing</div>
+          <div className="sec-eyebrow">— pricing</div>
           <h2 className="sec-title">Start free.<br /><span className="gtext">Grow with Axon.</span></h2>
           <p className="sec-sub" style={{ margin: '0 auto' }}>All core intelligence is free forever.</p>
         </div>

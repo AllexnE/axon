@@ -23,7 +23,7 @@ export default function HowItWorks() {
     <section className="sec" id="how">
       <div className="wrap">
         <div className="rv">
-          <div className="sec-eyebrow">// neural engine</div>
+          <div className="sec-eyebrow">— neural engine</div>
           <h2 className="sec-title">Three layers.<br /><span className="gtext">One intelligent decision.</span></h2>
           <p className="sec-sub">From fully explainable rules to online ML — 100% offline. Your code never leaves your machine.</p>
         </div>
