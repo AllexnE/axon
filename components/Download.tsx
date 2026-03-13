@@ -154,14 +154,16 @@ function DownloadModal({ platform: p, onClose }: { platform: Platform; onClose: 
           style={{
             width: '100%', justifyContent: 'center', padding: '14px',
             borderRadius: 12, fontSize: 15, fontWeight: 600, cursor: 'none',
-            border: 'none', transition: 'all .2s',
+            transition: 'all .2s',
             ...(done ? {
               background: 'rgba(16,185,129,.08)', color: '#34d399',
               border: '1px solid rgba(16,185,129,.25)',
             } : progress !== null ? {
               background: 'var(--raised)', color: 'var(--t2)',
+              border: 'none',
             } : {
               background: 'var(--grad)', color: '#fff',
+              border: 'none',
               boxShadow: '0 4px 24px rgba(124,58,237,.4)',
             }),
           }}
