@@ -4,12 +4,13 @@ import Marquee from '@/components/Marquee'
 import Stats from '@/components/Stats'
 import Products from '@/components/Products'
 import Features from '@/components/Features'
+import Cars from '@/components/Cars'
 import HowItWorks from '@/components/HowItWorks'
 import Testimonials from '@/components/Testimonials'
 import CtaBanner from '@/components/CtaBanner'
 
 export const metadata: Metadata = {
-  title: 'Axon — Intelligence Wired Into Every Tool',
+  title: 'Axon == Intelligence Wired Into Every Tool',
 }
 
 export default function HomePage() {
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Marquee />
       <Stats />
       <Products />
+      <Cars />
       <Features />
       <HowItWorks />
       <Testimonials />
